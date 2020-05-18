@@ -13,7 +13,7 @@ jobs:
       - name: Bump Versions
         uses: michmich112/version-bumper@uat
         with:
-          options-file: "./.github/options.json" 
+          options-file: "./.github/workflows/options.json" 
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
 
