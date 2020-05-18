@@ -13,10 +13,7 @@ jobs:
       - name: Bump Versions
         uses: michmich112/version-bumper@uat
         with:
-          scheme: semantic
-          version-file: "./package.json"
-          files: "[]" 
-          rules: '[{"trigger":"commit","bump":"build"}, {"trigger":"commit","branch":"release","bump":"major", "reset":["minor","build"]}]'
+          options-file: "./.github/options.json" 
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
 
