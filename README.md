@@ -1,3 +1,4 @@
 # Bumper Test
-tests for version bumper action in workflow
-test 2
+tests for version bumper action in workflow\
+test 2\
+test 3 -> Trigger debugging
