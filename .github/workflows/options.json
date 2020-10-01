@@ -6,7 +6,14 @@
   "rules": [
     {
       "trigger": "commit",
-      "bump": "build"
+      "branch": "test",
+      "bump": "patch"
+    },
+    {
+      "trigger": "commit",
+      "branch": "dev",
+      "bump": "build",
+      "reset": "patch"
     },
     {
       "trigger": "commit",
