@@ -23,6 +23,11 @@
     },
     {
       "trigger": "commit",
+      "bump": "patch",
+      "tag": true
+    },
+    {
+      "trigger": "commit",
       "bump": "major",
       "branch": "release",
       "reset": [
