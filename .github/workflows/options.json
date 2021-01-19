@@ -17,6 +17,11 @@
     },
     {
       "trigger": "commit",
+      "bump": "patch",
+      "tag": true
+    },
+    {
+      "trigger": "commit",
       "bump": "minor",
       "branch": "master",
       "reset": "build"
