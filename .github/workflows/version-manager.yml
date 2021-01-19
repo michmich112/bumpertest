@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: '12'
       - name: Bump Versions
-        uses: michmich112/version-bumper@8f061a922ad4a8496e81aed5e985a99e47fcc199
+        uses: michmich112/version-bumper@c1ef17ce7bca5f52a412782dc4286bd24e83b667
         with:
           options-file: "./.github/workflows/options.json" 
           github-token: ${{ secrets.GITHUB_TOKEN }}
