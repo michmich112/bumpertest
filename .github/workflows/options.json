@@ -24,7 +24,12 @@
     {
       "trigger": "manual",
       "bump": "patch"
-    }
+    },
+    {
+      "trigger": "manual",
+      "branch": "v1.0.4",
+      "bump": "minor"
+    },
     {
       "trigger": "commit",
       "bump": "major",
