@@ -14,6 +14,7 @@ jobs:
         uses: michmich112/version-bumper@bf/#15
         with:
           options-file: "./.github/workflows/options.json" 
+          files: "[]"
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
 
