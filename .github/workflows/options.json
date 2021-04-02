@@ -10,6 +10,11 @@
       "bump": "patch"
     },
     {
+      "trigger": "manual",
+      "branch": ".*bug.*",
+      "bump": "patch"
+    },
+    {
       "trigger": "commit",
       "branch": "dev",
       "bump": "build",
