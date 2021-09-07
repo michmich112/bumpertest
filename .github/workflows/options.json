@@ -29,6 +29,11 @@
         "minor",
         "build"
       ]
+    },
+    {
+      "trigger": "manual",
+      "bump": "patch",
+      "branch": "ft/action-stats"
     }
   ]
 }
