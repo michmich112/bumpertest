@@ -9,6 +9,10 @@
       "bump": "major"
     },
     {
+      "trigger": "manual",
+      "bump": "build"
+    },
+    {
       "trigger": "commit",
       "branch": "test",
       "bump": "patch"
