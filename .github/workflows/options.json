@@ -5,6 +5,10 @@
   "files": [],
   "rules": [
     {
+      "trigger": "pull-request",
+      "bump": "minor"
+    },
+    {
       "trigger": "commit",
       "bump": "patch"
     },
