@@ -36,7 +36,7 @@
     },
     {
       "trigger": "commit",
-      "bump": "build",
+      "bump": "build"
     }
   ]
 }
