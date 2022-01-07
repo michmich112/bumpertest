@@ -6,7 +6,8 @@
   "rules": [
     {
       "trigger":"pull-request",
-      "bump": "major"
+      "bump": "major",
+      "branch": "master"
     },
     {
       "trigger": "commit",
