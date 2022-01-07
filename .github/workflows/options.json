@@ -33,6 +33,10 @@
         "minor",
         "build"
       ]
+    },
+    {
+      "trigger": "commit",
+      "bump": "build",
     }
   ]
 }
