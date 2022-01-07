@@ -21,12 +21,6 @@
     },
     {
       "trigger": "commit",
-      "bump": "minor",
-      "branch": "master",
-      "reset": "build"
-    },
-    {
-      "trigger": "commit",
       "bump": "major",
       "branch": "release",
       "reset": [
