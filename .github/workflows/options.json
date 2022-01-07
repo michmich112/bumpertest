@@ -6,7 +6,8 @@
   "rules": [
     {
       "trigger":"pull-request",
-      "bump": "major"
+      "bump": "major",
+      "destBranch": "master"
     },
     {
       "trigger": "commit",
@@ -18,12 +19,6 @@
       "branch": "dev",
       "bump": "build",
       "reset": "patch"
-    },
-    {
-      "trigger": "commit",
-      "bump": "minor",
-      "branch": "master",
-      "reset": "build"
     },
     {
       "trigger": "commit",
