@@ -7,7 +7,7 @@
     {
       "trigger":"pull-request",
       "bump": "major",
-      "branch": "master"
+      "destBranch": "master"
     },
     {
       "trigger": "commit",
