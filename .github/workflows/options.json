@@ -10,6 +10,11 @@
       "destBranch": "master"
     },
     {
+      "trigger": "pull-request",
+      "bump": "minor",
+      "destBranch": "ft/committer"
+    },
+    {
       "trigger": "commit",
       "branch": "test",
       "bump": "patch"
